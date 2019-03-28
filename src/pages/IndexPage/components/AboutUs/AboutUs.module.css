@@ -1,0 +1,7 @@
+.container {
+  color: lightgray;
+  text-align: center;
+  background-image: url("https://placeimg.com/640/480/animals");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

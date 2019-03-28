@@ -1,0 +1,23 @@
+.container {
+  background-color: #eee;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr;
+  grid-gap: 2%;
+}
+
+.workType {
+  background-color: #0f0;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .container {
+    background-color: #eee;
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    grid-gap: 2%;
+  }
+}
